@@ -27,8 +27,13 @@ a {
   }
 
 #home {
-    padding: 30px 80px;
+    padding: 100px 80px;
+    margin-top: -100px;
     text-align: center;
+    background-image: url("#");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #home img {
@@ -39,7 +44,8 @@ a {
     display: flex;
     align-items: center;
     gap: 32px;
-    padding: 140px 150px 80px;
+    padding: 100px 150px 80px;
+    margin-top: -80px;
     position: relative;
 }
 
@@ -55,7 +61,7 @@ h1 {
 h2 {
     font-weight: 600;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h4 {
@@ -145,10 +151,6 @@ h4 {
     text-align: center;
 }
 
-
-
-
-
 #suporte {
     text-align: center;
 }
@@ -158,12 +160,34 @@ h4 {
     margin: 50px auto;
     max-width: 80%;
     flex-wrap: nowrap;
-    
+    animation: move 0.9s linear forwards;
 }
 
 .duvida2 {
     display: flex;
     margin: 0px 8px;
-
-    
 }
+
+
+
+
+#teste {
+    margin-top: 50px;
+       animation: move 0.3s linear forwards;
+}
+
+@keyframes move {
+    /* to {
+        transform: translate(0px, -50px);
+        animation-iteration-count: infinite; */
+
+        0% {
+            opacity: 0;
+            transform: translate3d(0, 100%, 0)
+        }
+    
+        to {
+            opacity: 1;
+            transform: none
+        }
+    }
