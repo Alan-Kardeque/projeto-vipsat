@@ -1,0 +1,169 @@
+header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 80px 25px 80px;
+}
+
+header nav a {
+    color: #262138;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a {
+    color: #262138;
+    font-weight: 600;
+    text-decoration: none;
+}
+  a:hover,
+  a:active,
+  a:focus {
+    color: #e51818;
+    outline: none;
+    transition: 0.5s;
+  }
+
+#home {
+    padding: 30px 80px;
+    text-align: center;
+}
+
+#home img {
+    margin: 10px auto;
+}
+
+#vipsat {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 140px 150px 80px;
+    position: relative;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 60px;
+    margin-top: 5px;
+    line-height: 150%;
+    /* color: #FFFFFF; */
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 51px;
+}
+
+.botao {
+    background-color: #c70c0cd3;
+    border: 1px solid #c70c0cd3;
+    border-radius: 8PX;
+    color: #ffffff;
+    padding: 10PX 32PX;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.botao:hover,
+.botao:active,
+.botao:focus{
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+#vipsat2 {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 0px 150px;
+    margin-top: -30px;
+    
+}
+
+#solucao {
+    display: flex;
+    text-align: center;
+    gap: 64px;
+    padding: 50px 150px;
+    margin-top: 50px;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #262138;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+    color: #262138;
+}
+
+.duvida img {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #262138;
+    border-bottom: 1px solid #262138;
+    border-left: 1px solid #262138;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
+
+.solucoes {
+    text-align: center;
+}
+
+
+
+
+
+#suporte {
+    text-align: center;
+}
+
+.princ {
+    display: flex;
+    margin: 50px auto;
+    max-width: 80%;
+    flex-wrap: nowrap;
+    
+}
+
+.duvida2 {
+    display: flex;
+    margin: 0px 8px;
+
+    
+}
