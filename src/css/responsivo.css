@@ -1,0 +1,81 @@
+@media (max-width: 769px) {
+    header {
+      padding: 20px 0;
+    }
+
+header nav a {
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#home img {
+  margin: 10px auto;
+  width: 350px;
+  height: 200px;
+}
+
+
+#vipsat {
+  gap: 32px;
+  padding: 50px 30px 80px;
+  margin-top: -80px;
+  position: relative;
+}
+
+#vipsat img {
+  width: 400px;
+  height: 200px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+.paragrafo {
+  margin-bottom: 51px;
+  font-size: 14px;
+}
+.botao {
+  font-size: 12px;
+}
+
+#vipsat2 {
+  justify-content: flex-end;
+  margin-left: 20px;
+  max-width: 100vw;
+  padding: 30px;
+}
+#vipsat2 img {
+  width: 400px;
+  height: 300px;
+} 
+
+#solucao #foto-celular {
+  width: 260px;
+  height: 280px;
+  /* margin-left: -10px; */
+}
+
+#solucao {
+  gap: 32px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.duvida h3 {
+  padding: 10px;
+ font-size: 12px;
+}
+}
