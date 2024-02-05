@@ -1,4 +1,9 @@
 @media (max-width: 769px) {
+  
+body {
+  overflow-x: hidden;
+}
+
     header {
       padding: 20px 0;
     }
@@ -32,6 +37,7 @@ header nav a {
 h1 {
   font-weight: 600;
   font-size: 36px;
+  width: 100vh;
 }
 
 h2 {
@@ -90,12 +96,40 @@ header {
   padding-bottom: 0px;
 }
 
+#home img {
+  margin: 50px auto;
+  width: 290px;
+  height: 150;
+}
+
+#vipsat {
+  display: block;
+}
+
+#vipsat2 {
+  display: block;
+}
+
+#solucao {
+  display: block;
+}
+
+.princ{
+  display: block;
+}
+
+h1 {
+  font-size: 26px;
+  width: 50vh;
+  margin-left: -80px;
+}
+
 .nav-list {
   position: absolute;
-  top: 9vh;
+  top: 7vh;
   right: 0;
   width: 50vw;
-  height: 92vh;
+  height: 60vh;
   background: #262138f1;
   display: flex;
   flex-direction: column;
@@ -117,7 +151,7 @@ header {
 .mobile-menu {
   display: block;
   /* margin-right: 500px; */
-  margin-left: 500px;
+  margin-left: 280px;
 }
 }
 
