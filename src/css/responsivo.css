@@ -2,6 +2,7 @@
   
 body {
   overflow-x: hidden;
+  /* overflow: hidden; */
 }
 
     header {
@@ -15,23 +16,11 @@ header nav a {
     font-size: 12px;
 }
 
-#home img {
-  margin: 10px auto;
-  width: 350px;
-  height: 200px;
-}
-
-
 #vipsat {
   gap: 32px;
-  padding: 50px 30px 80px;
+  padding: 80px 30px 80px;
   margin-top: -80px;
   position: relative;
-}
-
-#vipsat img {
-  width: 400px;
-  height: 200px;
 }
 
 h1 {
@@ -63,15 +52,27 @@ h4 {
   max-width: 100vw;
   padding: 30px;
 }
+
+
+#home img {
+  margin: 10px auto;
+  width: 350px;
+  height: 200px;
+}
+
+#vipsat img {
+  width: 360px;
+  height: 200px;
+}
+
 #vipsat2 img {
-  width: 400px;
+  width: 370px;
   height: 300px;
 } 
 
 #solucao #foto-celular {
   width: 260px;
   height: 280px;
-  /* margin-left: -10px; */
 }
 
 #solucao {
@@ -86,7 +87,7 @@ h4 {
 }
 }
 
-@media (max-width: 425px){
+@media (max-width: 423px){
 
 body {
   overflow-x: hidden;
@@ -94,18 +95,27 @@ body {
 header {
   background: #262138f1;
   padding-bottom: 0px;
+  overflow-x: hidden;
+}
+
+#home {
+  margin-bottom: 130px;
 }
 
 #home img {
-  margin: 50px auto;
-  width: 290px;
+  margin: 150px auto 0px -65px;
+  width: 390px;
   height: 150;
 }
 
 #vipsat {
   display: block;
+  margin-top: 110px;
 }
 
+#vipsat img {
+  margin-bottom: 50px;
+}
 #vipsat2 {
   display: block;
 }
@@ -121,7 +131,7 @@ header {
 h1 {
   font-size: 26px;
   width: 50vh;
-  margin-left: -80px;
+  margin-left: -10vh;
 }
 
 .nav-list {
@@ -129,7 +139,7 @@ h1 {
   top: 7vh;
   right: 0;
   width: 50vw;
-  height: 60vh;
+  height: 85vh;
   background: #262138f1;
   display: flex;
   flex-direction: column;
@@ -150,7 +160,7 @@ h1 {
 
 .mobile-menu {
   display: block;
-  /* margin-right: 500px; */
+  margin-right: auto;
   margin-left: 280px;
 }
 }
@@ -168,6 +178,60 @@ h1 {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+
+@media (max-width: 414px){
+  
+  .nav-list {
+    top: 6.5vh;
+  }
+
+  h1 {
+    margin-left: -11vh;
+  }
+
+#home img {
+  margin-top: 200px;
+}
+
+#vipsat img {
+  width: 300px;
+  height: 160px;
+}
+
+#vipsat2 img {
+  width: 220px;
+  height: 190px;
+} 
+
+#solucao #foto-celular {
+  width: 240px;
+  height: 260px;
+}
+
+}
+
+
+@media (max-width: 375px){
+   
+  .nav-list {
+    top: 7.1vh;
+  }
+
+  h1 {
+    margin-left: -12vh;
+    font-size: 22px;
+  }
+
+#home img {
+  /* margin-top: 150px; */
+  margin: 150px auto 0px -90px;
+}
+
+#home {
+  margin-bottom: 140px;
+}
 }
 
 .mobile-menu.active .line1 {

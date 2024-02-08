@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+  }
+
 header {
     background-color: #ffffff;
     display: flex;
