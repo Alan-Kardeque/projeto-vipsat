@@ -74,15 +74,6 @@ a {
     margin: 10px auto;
 }
 
-#vipsat {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-    padding: 100px 150px 80px;
-    margin-top: -80px;
-    position: relative;
-}
-
 h1 {
     font-weight: 800;
     font-size: 45px;
@@ -127,13 +118,13 @@ h4 {
     transition: 0.5s;
 }
 
-#vipsat2 {
+#vipsat, #vipsat2 {
     display: flex;
     align-items: center;
-    gap: 64px;
-    padding: 0px 150px;
-    margin-top: -30px;
-    
+    gap: 32px;
+    padding: 80px 100px 80px;
+    margin-top: -50px;
+    position: relative;
 }
 
 #solucao {

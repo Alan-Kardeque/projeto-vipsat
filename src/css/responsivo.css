@@ -2,6 +2,8 @@
   
 body {
   overflow-x: hidden;
+  /* overflow: auto; */
+  /* overflow-wrap: inherit; */
   /* overflow: hidden; */
 }
 
@@ -82,16 +84,36 @@ h4 {
 }
 
 .duvida h3 {
-  padding: 10px;
- font-size: 12px;
+  padding: 15px;
+ font-size: 10px;
 }
 }
+
+
+
+@media (max-width: 688px){
+  
+  h1 {
+    margin-left: -25vh;
+  }
+
+  h3 {
+    font-size: 6px;
+  }
+
+  #home {
+    margin-bottom: 150px;
+  }
+
+#home img {
+  margin: 200px auto 120px auto;
+}
+}
+
+
 
 @media (max-width: 423px){
 
-body {
-  overflow-x: hidden;
-}
 header {
   background: #262138f1;
   padding-bottom: 0px;
@@ -118,6 +140,7 @@ header {
 }
 #vipsat2 {
   display: block;
+  margin-left: 0px;
 }
 
 #solucao {
@@ -136,10 +159,10 @@ h1 {
 
 .nav-list {
   position: absolute;
-  top: 7vh;
+  top: 6.9vh;
   right: 0;
   width: 50vw;
-  height: 85vh;
+  height: 90vh;
   background: #262138f1;
   display: flex;
   flex-direction: column;
@@ -161,7 +184,7 @@ h1 {
 .mobile-menu {
   display: block;
   margin-right: auto;
-  margin-left: 280px;
+  margin-left: 300px;
 }
 }
 
@@ -209,7 +232,23 @@ h1 {
   width: 240px;
   height: 260px;
 }
+}
 
+
+@media (max-width: 393px){
+   
+  .nav-list {
+    top: 7.4vh;
+  }
+
+  h1 {
+    margin-left: -10vh;
+    font-size: 23px;
+  }
+
+#home img {
+  margin: 150px auto 0px -90px;
+}
 }
 
 
@@ -221,11 +260,10 @@ h1 {
 
   h1 {
     margin-left: -12vh;
-    font-size: 22px;
+    font-size: 23px;
   }
 
 #home img {
-  /* margin-top: 150px; */
   margin: 150px auto 0px -90px;
 }
 
