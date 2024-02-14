@@ -169,6 +169,10 @@
     margin-right: auto;
     margin-left: 300px;
   }
+
+  .duvida2 {
+    padding: 8px;
+  }
 }
 
 .nav-list.active {

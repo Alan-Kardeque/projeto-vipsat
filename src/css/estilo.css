@@ -100,6 +100,7 @@ h4 {
     margin-left: 20px;
     font-size: 16px;
     font-weight: 800;
+    /* color: #000000; */
 }
 
 .paragrafo {
@@ -191,7 +192,7 @@ h4 {
     margin: 50px auto;
     max-width: 80%;
     flex-wrap: nowrap;
-    animation: move 0.9s linear forwards;
+    animation: move 1.2s linear forwards;
 }
 
 .duvida2 {
@@ -199,18 +200,12 @@ h4 {
     margin: 0px 8px;
 }
 
-
-
-
-#teste {
+.teste-efeito {
     margin-top: 50px;
-    animation: move 0.3s linear forwards;
+    animation: move 0.8s linear forwards;
 }
 
 @keyframes move {
-    /* to {
-        transform: translate(0px, -50px);
-        animation-iteration-count: infinite; */
 
     0% {
         opacity: 0;
