@@ -138,8 +138,7 @@ h4 {
     display: flex;
     text-align: center;
     gap: 64px;
-    padding: 80px 130px;
-    /* margin-top: 50px; */
+    padding: 100px 130px 120px 130px;
 }
 
 .duvida {
@@ -183,8 +182,39 @@ h4 {
     text-align: center;
 }
 
+.sist {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #000000a1;
+}
+
+#sistema {
+    width: 100vw;
+    height: 62.5vh;
+    
+    background-image: url("../imagem/background4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sistema .princ .duvida2 {
+    background-color: #000000ee;
+    width: 250px;
+    height: 200px;
+    display: block;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#sistema h2 {
+    color: #FFFFFF;
+}
+
 #suporte {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .princ {
@@ -216,4 +246,45 @@ h4 {
         opacity: 1;
         transform: none
     }
+}
+
+
+
+footer {
+    background-color: #2621384b;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img, footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+} 
+
+footer nav a {
+    color: #262138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+    color: #262138;
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #262138;
+    padding: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#copyright a {
+    color: #c70c0cd3;
 }

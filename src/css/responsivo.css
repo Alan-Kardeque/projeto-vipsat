@@ -173,6 +173,51 @@
   .duvida2 {
     padding: 8px;
   }
+
+
+  .sist {
+    padding-top: 8px;
+}
+
+  #sistema {
+    text-align: center;
+    /* margin-bottom: 10px; */
+    /* margin-top: 10px; */
+    /* padding: 30px 0px; */
+    
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #sistema .princ .duvida2 {
+    margin-bottom: 10px;
+    width: 300px;
+  }
+
+  #suporte {
+    margin-top: 200px;
+  }
+
+  footer {
+    display: block;
+    
+  }
+
+  
+  #vipsat img {
+    width: 300px;
+    height: 160px;
+  }
+
+  #vipsat2 img {
+    width: 220px;
+    height: 190px;
+  }
+
+  #solucao #foto-celular {
+    width: 240px;
+    height: 260px;
+  }
 }
 
 .nav-list.active {
@@ -194,20 +239,6 @@
 
 @media (max-width: 414px) {
 
-  #vipsat img {
-    width: 300px;
-    height: 160px;
-  }
-
-  #vipsat2 img {
-    width: 220px;
-    height: 190px;
-  }
-
-  #solucao #foto-celular {
-    width: 240px;
-    height: 260px;
-  }
 }
 
 @media (max-width: 393px) {
